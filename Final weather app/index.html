@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="design.css" />
+    <title>My Weather App</title>
+  </head>
+  <body>
+    <section class="TodayWeather">
+      <div id="TodayWeather">
+        <figure>
+          <img src="" id="todayicon" />
+        </figure>
+        <p id="location"></p>
+        <p id="temp"></p>
+        <p id="weather"></p>
+      </div>
+    </section>
+    <section class="CitySearch">
+      <input type="text" placeholder="Chercher une ville..." id="SearchBox" />
+      <button type="submit" onclick="SearchCity()">Confirmer</button>
+    </section>
+
+    <section class="DateAndDay">
+      <div class="Date">
+        <p id="date"></p>
+      </div>
+      <div class="Day">
+        <p id="day"></p>
+      </div>
+      <div class="Time">
+        <p id="timee"></p>
+      </div>
+    </section>
+
+    <section class="CityResult">
+      <div class="SearchResult">
+          <p id="CityName"></p>
+          <p id="CityCountry"></p>
+          <p id="CityTemp"></p>
+          <p id="CityFeels"></p>
+          <p id="CityPressure"></p>
+          <p id="CityHumidity"></p>
+          <p id="CityMax"></p>
+          <p id="CityMin"></p>
+          <p id="CityWeather"></p>
+          <img src="./Icons/night.svg" id="CityIcon">
+      </div>
+    </section>
+
+    <section class="HourlyWeather">
+      <div class="hourplus1">
+        <p id="time1"></p>
+        <img src="" id="i1" />
+        <p id="hourplusone"></p>
+      </div>
+      <div class="hourplus2">
+        <p id="time2"></p>
+        <img src="" id="i2" />
+        <p id="hourplustwo"></p>
+      </div>
+      <div class="hourplus3">
+        <p id="time3"></p>
+        <img src="" id="i3" />
+        <p id="hourplusthree"></p>
+      </div>
+      <div class="hourplus4">
+        <p id="time4"></p>
+        <img src="" id="i4" />
+        <p id="hourplusfour"></p>
+      </div>
+      <div class="hourplus5">
+        <p id="time5"></p>
+        <img src="" id="i5" />
+        <p id="hourplusfive"></p>
+      </div>
+      <div class="hourplus6">
+        <p id="time6"></p>
+        <img src="" id="i6" />
+        <p id="hourplussix"></p>
+      </div>
+      <div class="hourplus7">
+        <p id="time7"></p>
+        <img src="" id="i7" />
+        <p id="hourplusseven"></p>
+      </div>
+      <div class="hourplus8">
+        <p id="time8"></p>
+        <img src="" id="i8" />
+        <p id="hourpluseight"></p>
+      </div>
+    </section>
+
+    <section class="TodaySpecs">
+      <p id="today"></p>
+      <p id="pressure"></p>
+      <p id="humidity"></p>
+      <p id="feels_like"></p>
+      <p id="sunrise"></p>
+      <p id="sunset"></p>
+    </section>
+
+    <section class="WeeklyWeather">
+      <div class="Day1">
+        <p id="showday1"></p>
+        <p id="showweather1"></p>
+        <p id="day1"></p>
+      </div>
+      <div class="Day2">
+        <p id="showday2"></p>
+        <p id="showweather2"></p>
+        <p id="day2"></p>
+      </div>
+      <div class="Day3">
+        <p id="showday3"></p>
+        <p id="showweather3"></p>
+        <p id="day3"></p>
+      </div>
+      <div class="Day4">
+        <p id="showday4"></p>
+        <p id="showweather4"></p>
+        <p id="day4"></p>
+      </div>
+      <div class="Day5">
+        <p id="showday5"></p>
+        <p id="showweather5"></p>
+        <p id="day5"></p>
+      </div>
+      <div class="Day6">
+        <p id="showday6"></p>
+        <p id="showweather6"></p>
+        <p id="day6"></p>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>

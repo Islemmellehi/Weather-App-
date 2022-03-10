@@ -1,0 +1,510 @@
+/* Fonts */
+
+@font-face {
+    font-family: Font1;
+    src: url(./Fonts/Hubballi-Regular.ttf);
+}
+
+@font-face {
+    font-family: Font2;
+    src: url(./Fonts/Raleway-VariableFont_wght.ttf);
+}
+
+
+/* Personnalizing body */
+
+
+body {
+    overflow: hidden;
+    background-image: url(./Images/BG2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+/* Today Weather section */
+
+.TodayWeather {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    border-radius: 30px;
+    border: hidden;
+    font-family: Font2;
+    text-align: center;
+    
+}
+
+
+#location {
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    left: 130px;
+}
+
+#weather {
+    position: absolute;
+    left: 230px;
+    top: 70px;
+}
+
+#temp {
+    position: absolute;
+    top: 120px;
+    left: 230px;
+}
+
+#todayicon {
+    width: 70%;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+/* Date and Day section */
+
+.DateAndDay {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 110px;
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    border-radius: 30px;
+    border: hidden;
+    font-family: Font2;
+    text-align: center;
+}
+
+
+/* City Search section */
+
+.CitySearch input {
+    position: absolute;
+    top: 6%;
+    left: 70%;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    border: hidden;
+    text-align: center;
+    font-family: Font2;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+.CitySearch input:hover {
+    cursor: text;
+    font-size: 14px;
+}
+
+.CitySearch button {
+    position: absolute;
+    left: 88%;
+    top: 6%;
+    height: 30px;
+    width: 80px;
+    background-color: #DEEDF0;
+    border: hidden;
+    border-radius: 3px;
+    font-family: Font2;
+}
+
+.CitySearch button:hover {
+    cursor: pointer;
+
+}
+
+
+
+
+/* Hourly Weather section */
+
+.HourlyWeather {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 130px;
+    width: 1225px;
+    position: absolute;
+    top: 42%;
+    left: 4%;
+    border-radius: 30px;
+    border: hidden;
+    font-family: Font2;
+}
+
+#hourplusone{
+    position: absolute;
+    top: 80px;
+    left: 6%;
+}
+.hourplus1 img{
+    position: absolute;
+    top: 25%;
+    left: 5.5%;
+}
+.hourplus2 img{
+    position: absolute;
+    top: 25%;
+    left: 16%;
+}
+.hourplus3 img{
+    position: absolute;
+    top: 25%;
+    left: 27.4%;
+}
+.hourplus4 img{
+    position: absolute;
+    top: 25%;
+    left: 39%;
+}
+.hourplus5 img{
+    position: absolute;
+    top: 25%;
+    left: 53%;
+}
+.hourplus6 img{
+    position: absolute;
+    top: 25%;
+    left: 66%;
+}
+.hourplus7 img{
+    position: absolute;
+    top: 25%;
+    left: 78%;
+}
+.hourplus8 img{
+    position: absolute;
+    top: 25%;
+    left: 88.7%;
+}
+
+#time1{
+    position: absolute;
+    top: 0px;
+    left: 7%;
+}
+
+#hourplustwo{
+    position: absolute;
+    top: 80px;
+    left: 17%;
+}
+#time2{
+    position: absolute;
+    top: 0px;
+    left: 17.5%;
+}
+
+#hourplusthree{
+    position: absolute;
+    top: 80px;
+    left: 28%;
+}
+#time3{
+    position: absolute;
+    top: 0px;
+    left: 28.8%;
+}
+
+#hourplusfour{
+    position: absolute;
+    top: 80px;
+    left: 40%;
+}
+#time4{
+    position: absolute;
+    top: 0px;
+    left: 40.7%;
+}
+
+#hourplusfive{
+    position: absolute;
+    top: 80px;
+    left: 54%;
+}
+#time5{
+    position: absolute;
+    top: 0px;
+    left: 54.7%;
+}
+
+#hourplussix{
+    position: absolute;
+    top: 80px;
+    left: 67%;
+}
+#time6{
+    position: absolute;
+    top: 0px;
+    left: 67.7%;
+}
+
+#hourplusseven{
+    position: absolute;
+    top: 80px;
+    left: 79%;
+}
+#time7{
+    position: absolute;
+    top: 0px;
+    left: 79.4%;
+}
+
+#hourpluseight{
+    position: absolute;
+    top: 80px;
+    left: 90%;
+}
+#time8{
+    position: absolute;
+    top: 0px;
+    left: 90.3%;
+}
+
+
+
+
+/* Today Specs section  */
+
+.TodaySpecs {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 180px;
+    width: 320px;
+    position: absolute;
+    top: 68%;
+    left: 2.5%;
+    border-radius: 30px;
+    border: hidden;
+    font-family: Font2;
+}
+
+#today{
+    position: absolute;
+    left:25%;
+    top: -15px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+#pressure{
+    position: absolute;
+    top: 45px;
+    left: 64%;
+}
+#humidity{
+    position: absolute;
+    top: 80px;
+    left: 64%;
+}
+#feels_like{
+    position: absolute;
+    top: 120px;
+    left: 22%;
+}
+#sunrise{
+    position: absolute;
+    top: 45px;
+    left:2%;
+}
+#sunset{
+    position: absolute;
+    top: 80px;
+    left: 2%;
+}
+
+/* Weekly Weather section */
+
+.WeeklyWeather {
+    height: 180px;
+    width: 875px;
+    position: absolute;
+    top: 68%;
+    left: 30%;
+    border-radius: 30px;
+    border: hidden;
+    font-family: Font2;
+}
+
+#showday1,#showday2,#showday3,#showday4,#showday5,#showday6{
+    position: absolute;
+    left: 32%;
+    top: -10px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    
+}
+#tempmax1{
+    position: absolute;
+    top: 25px;
+    left: 65%;
+    font-size: 15px;
+}
+#tempmin1{
+    position: absolute;
+    top: 43px;
+    left: 65%;
+
+}
+#showweather1,#showweather2,#showweather3,#showweather4,#showweather5,#showweather6{
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    font-size: 15px;
+}
+
+/* Day1 Div */
+.Day1 {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 85px;
+    width: 280px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 30px;
+    border: hidden;
+}
+
+/* Day2 Div*/
+.Day2 {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 85px;
+    width: 280px;
+    position: absolute;
+    top: 0%;
+    left: 34%;
+    border-radius: 30px;
+    border: hidden;
+}
+
+/* Day3 Div*/
+.Day3 {
+
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 85px;
+    width: 280px;
+    position: absolute;
+    top: 0%;
+    left: 68%;
+    border-radius: 30px;
+    border: hidden;
+}
+
+/* Day4 Div*/
+.Day4 {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 85px;
+    width: 280px;
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    border-radius: 30px;
+    border: hidden;
+}
+
+/* Day5 Div */
+.Day5 {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 85px;
+    width: 280px;
+    position: absolute;
+    top: 53%;
+    left: 34%;
+    border-radius: 30px;
+    border: hidden;
+}
+
+/* Day6 Div*/
+.Day6 {
+    background-image: url(./Images/whitebg.png);
+    background-size: cover;
+    height: 85px;
+    width: 280px;
+    position: absolute;
+    top: 53%;
+    left: 68%;
+    border-radius: 30px;
+    border: hidden;
+}
+
+
+
+/*  Results of Searching city  */ 
+
+.SearchResult{
+    background-image: url(./Images/whitebg.png);
+    height: 400px;
+    width: 850px;
+    position: absolute;
+    left: 17%;
+    top: 25%;
+    z-index: 1;
+    border-radius: 15px;
+    border: hidden;
+    display: none;
+    font-family: Font2;
+}
+#CityName{
+    position: absolute;
+    left: 42%;
+    font-size: 25px;
+}
+#CityCountry{
+    position: absolute;
+    left: 44.5%;
+    top: 13%;
+    font-size: 20px;
+}
+#CityTemp{
+    position: absolute;
+    left: 2%;
+    top: 28%;
+}
+#CityFeels{
+    position: absolute;
+    left: 30%;
+    top: 28%;
+}
+#CityPressure{
+    position: absolute;
+    left: 2%;
+    top:40% ;
+}
+#CityHumidity{
+    position: absolute;
+    left: 30%;
+    top:40% ;
+}
+#CityMax{
+    position: absolute;
+    left: 2%;
+    top:53% ;
+}
+#CityMin{
+    position: absolute;
+    left: 30%;
+    top:53% ;
+}
+#CityWeather{
+    position: absolute;
+    left: 17%;
+    top:70% ;
+}
+#CityIcon{
+    position: absolute;
+    left: 55%;
+    top: 5%;
+    width: 45%;
+}
